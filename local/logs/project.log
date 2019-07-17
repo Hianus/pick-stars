@@ -1,0 +1,635 @@
+2019-07-17T08:17:38.562Z - normal: Load ~/.CocosCreator/settings.json
+2019-07-17T08:17:38.566Z - normal: checking language setting...
+2019-07-17T08:17:38.566Z - normal: Language: zh
+2019-07-17T08:17:40.106Z - success: protocol editor-framework registered
+2019-07-17T08:17:40.106Z - success: protocol app registered
+2019-07-17T08:17:40.106Z - success: protocol theme registered
+2019-07-17T08:17:40.106Z - success: protocol packages registered
+2019-07-17T08:17:40.106Z - success: protocol unpack registerred
+2019-07-17T08:17:40.106Z - success: protocol disable-commonjs registerred
+2019-07-17T08:17:40.410Z - normal: connected!
+2019-07-17T08:17:40.420Z - normal: Check project G:\Cocos_workspace\start_project
+2019-07-17T08:17:40.439Z - normal: Initializing project G:\Cocos_workspace\start_project
+2019-07-17T08:17:40.442Z - normal: Initializing Cocos2d
+2019-07-17T08:17:40.664Z - normal: Initializing Asset Database
+2019-07-17T08:17:40.701Z - success: protocol uuid registerred
+2019-07-17T08:17:40.701Z - success: protocol db registerred
+2019-07-17T08:17:40.702Z - success: protocol thumbnail registerred
+2019-07-17T08:17:40.702Z - normal: Loading editor/builtin packages
+2019-07-17T08:17:40.831Z - success: assets loaded
+2019-07-17T08:17:40.833Z - success: builder loaded
+2019-07-17T08:17:40.836Z - success: cocos-analytics loaded
+2019-07-17T08:17:40.838Z - success: console loaded
+2019-07-17T08:17:40.874Z - success: fb-instant-games loaded
+2019-07-17T08:17:40.879Z - success: hierarchy loaded
+2019-07-17T08:17:40.881Z - success: inspector loaded
+2019-07-17T08:17:40.882Z - success: keystore loaded
+2019-07-17T08:17:40.886Z - success: node-library loaded
+2019-07-17T08:17:40.888Z - success: package-asset loaded
+2019-07-17T08:17:40.889Z - success: preferences loaded
+2019-07-17T08:17:40.890Z - success: project-exporter loaded
+2019-07-17T08:17:40.905Z - success: project-importer loaded
+2019-07-17T08:17:40.907Z - success: project-settings loaded
+2019-07-17T08:17:40.909Z - success: ui-kit loaded
+2019-07-17T08:17:40.913Z - success: scene loaded
+2019-07-17T08:17:40.914Z - success: sprite-editor loaded
+2019-07-17T08:17:40.917Z - success: store loaded
+2019-07-17T08:17:40.921Z - success: timeline loaded
+2019-07-17T08:17:40.922Z - normal: Loading builtin packages
+2019-07-17T08:17:40.926Z - success: asset-db-debugger loaded
+2019-07-17T08:17:40.929Z - success: code-editor loaded
+2019-07-17T08:17:40.931Z - success: color-picker loaded
+2019-07-17T08:17:40.935Z - success: package-manager loaded
+2019-07-17T08:17:40.939Z - success: qqplay-adapter loaded
+2019-07-17T08:17:40.945Z - success: sdkbox loaded
+2019-07-17T08:17:40.950Z - success: tester loaded
+2019-07-17T08:17:40.952Z - success: ui-grid loaded
+2019-07-17T08:17:40.954Z - success: ui-kit-preview-extra loaded
+2019-07-17T08:17:40.956Z - success: ui-kit-preview loaded
+2019-07-17T08:17:40.958Z - success: ui-tree loaded
+2019-07-17T08:17:40.959Z - success: weapp-adapter loaded
+2019-07-17T08:17:42.091Z - normal: Loading packages
+2019-07-17T08:17:42.096Z - normal: Watching packages
+2019-07-17T08:17:42.415Z - normal: Run Application
+2019-07-17T08:17:43.052Z - success: preview server running at http://localhost:7456
+2019-07-17T08:17:47.569Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:17:47.570Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:24:35.397Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:24:35.399Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:24:59.693Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:24:59.693Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:25:35.215Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:25:35.216Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:25:55.537Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:25:55.537Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:26:39.608Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:26:39.608Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:28:34.782Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:28:34.782Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:29:18.063Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:29:18.064Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:37:47.344Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:37:47.346Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:38:39.540Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:38:39.541Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:38:59.767Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:38:59.768Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:39:12.904Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2019-07-17T08:39:12.905Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 989.00
+2019-07-17T08:39:12.905Z - normal: Simulator: FRAME SCALE = 1.00
+2019-07-17T08:39:13.311Z - normal: Simulator: Ready for GLSL
+2019-07-17T08:39:13.311Z - normal: Simulator: Ready for OpenGL 2.0
+2019-07-17T08:39:13.317Z - normal: Simulator: 
+2019-07-17T08:39:13.317Z - normal: Simulator: {
+2019-07-17T08:39:13.318Z - normal: Simulator: 	gl.version: 4.6.0 NVIDIA 388.13
+2019-07-17T08:39:13.318Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-07-17T08:39:13.318Z - normal: Simulator: 	cocos2d.x.version: Cocos2d-x-lite v1.8.2
+2019-07-17T08:39:13.318Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2019-07-17T08:39:13.318Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2019-07-17T08:39:13.318Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2019-07-17T08:39:13.318Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-07-17T08:39:13.318Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.renderer: GeForce GTX 750/PCIe/SSE2
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.max_texture_units: 192
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-07-17T08:39:13.319Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-07-17T08:39:13.320Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-07-17T08:39:13.320Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-07-17T08:39:13.320Z - normal: Simulator: }
+2019-07-17T08:39:13.320Z - normal: Simulator: 
+2019-07-17T08:39:13.320Z - normal: Simulator: 
+2019-07-17T08:39:13.320Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2019-07-17T08:39:13.349Z - normal: Simulator: Project Config:
+2019-07-17T08:39:13.350Z - normal: Simulator:     project dir: C:\CocosCreator\resources\cocos2d-x\simulator\win32\
+2019-07-17T08:39:13.351Z - normal: Simulator:     writable path: $(PROJDIR)\
+2019-07-17T08:39:13.352Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2019-07-17T08:39:13.352Z - normal: Simulator:     frame size: 640 x 960
+2019-07-17T08:39:13.353Z - normal: Simulator:     frame scale: 1.00
+2019-07-17T08:39:13.353Z - normal: Simulator:     show console: NO
+2019-07-17T08:39:13.353Z - normal: Simulator:     write debug log: NO ()
+2019-07-17T08:39:13.353Z - normal: Simulator:     listen: 
+2019-07-17T08:39:13.353Z - normal: Simulator:     debugger: none
+2019-07-17T08:39:13.353Z - normal: Simulator:     add searching path:
+2019-07-17T08:39:13.353Z - normal: Simulator: 
+2019-07-17T08:39:13.354Z - normal: Simulator: 
+2019-07-17T08:39:13.354Z - normal: Simulator: 
+2019-07-17T08:39:13.354Z - normal: Simulator: ------------------------------------------------
+2019-07-17T08:39:13.354Z - normal: Simulator: LOAD Js FILE: main.js
+2019-07-17T08:39:13.355Z - normal: Simulator: ------------------------------------------------
+2019-07-17T08:39:13.355Z - normal: Simulator: D/jswrapper (365): Initializing V8, version: 6.0.286.52
+2019-07-17T08:39:13.720Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2019-07-17T08:39:13.722Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-07-17T08:39:13.722Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2019-07-17T08:39:13.979Z - normal: Simulator: iShow!
+2019-07-17T08:39:13.996Z - normal: Simulator: D/jswrapper (145): JS: [WARN]: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+2019-07-17T08:39:13.997Z - normal: Simulator: properties in CCClass can not be abbreviated if they are of type RawAsset.
+2019-07-17T08:39:13.997Z - normal: Simulator: Please use the complete form.
+2019-07-17T08:39:13.997Z - normal: Simulator: For example, if the type is Texture2D, the previous definition is:
+2019-07-17T08:39:13.997Z - normal: Simulator:     jumpAudio: cc.Texture2D,
+2019-07-17T08:39:13.998Z - normal: Simulator: Now it should be changed to:
+2019-07-17T08:39:13.998Z - normal: Simulator:     jumpAudio: {
+2019-07-17T08:39:13.998Z - normal: Simulator:       type: cc.Texture2D // use 'type:' to define Texture2D object directly
+2019-07-17T08:39:13.999Z - normal: Simulator:       default: null,     // object's default value is null
+2019-07-17T08:39:14.000Z - normal: Simulator:     },
+2019-07-17T08:39:14.000Z - normal: Simulator: (This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. ?? )
+2019-07-17T08:39:14.001Z - normal: Simulator: D/jswrapper (126): JS: [WARN]: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:39:14.082Z - normal: Simulator: D/jswrapper (126): JS: InitScene: 1.406000000000006ms
+2019-07-17T08:39:14.082Z - normal: Simulator: D/jswrapper (126): JS: AutoRelease: 0.13400000000001455ms
+2019-07-17T08:39:14.083Z - normal: Simulator: D/jswrapper (126): JS: Destroy: 0.08300000000002683ms
+2019-07-17T08:39:14.083Z - normal: Simulator: D/jswrapper (126): JS: AttachPersist: 0.005999999999971806ms
+2019-07-17T08:39:14.096Z - normal: Simulator: D/jswrapper (126): JS: Activate: 12.549000000000035ms
+2019-07-17T08:39:14.099Z - normal: Simulator: cocos2d: QuadCommand: resizing index size from [-1] to [2560]
+2019-07-17T08:39:19.667Z - normal: Simulator: D/jswrapper (448): ScriptEngine::cleanup begin ...
+2019-07-17T08:39:19.668Z - normal: Simulator: D/jswrapper (589): GC begin ..., (js->native map) size: 94, all objects: 378
+2019-07-17T08:39:19.697Z - normal: Simulator: D/jswrapper (597): GC end ..., (js->native map) size: 48, all objects: 332
+2019-07-17T08:39:19.697Z - normal: Simulator: D/jswrapper (589): GC begin ..., (js->native map) size: 48, all objects: 329
+2019-07-17T08:39:19.724Z - normal: Simulator: D/jswrapper (597): GC end ..., (js->native map) size: 48, all objects: 329
+2019-07-17T08:39:19.725Z - normal: Simulator: D/jswrapper (589): GC begin ..., (js->native map) size: 0, all objects: 0
+2019-07-17T08:39:19.752Z - normal: Simulator: D/jswrapper (597): GC end ..., (js->native map) size: 0, all objects: 0
+2019-07-17T08:39:19.755Z - normal: Simulator: D/jswrapper (688): Starting to cleanup dragonbones object, count: 0
+2019-07-17T08:39:19.755Z - normal: Simulator: D/jswrapper (707): After first cleanup, dragonbones object remained count: 0
+2019-07-17T08:39:19.756Z - normal: Simulator: D/jswrapper (723): After second cleanup, dragonbones object remained count: 0
+2019-07-17T08:39:19.756Z - normal: Simulator: D/jswrapper (511): ScriptEngine::cleanup end ...
+2019-07-17T08:39:44.986Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:39:44.986Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:40:38.403Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:40:38.403Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:42:32.296Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:42:32.297Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:43:24.724Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:43:24.724Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:44:20.569Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:44:20.569Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:45:20.366Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:45:20.366Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:46:39.395Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:46:39.396Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:46:56.438Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:46:56.438Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:47:02.024Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:47:02.025Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:54:30.405Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:54:30.407Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:55:16.687Z - warn: Please specifiy a default value for "Game" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 private
+2019-07-17T08:55:16.688Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:55:16.688Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:55:41.235Z - warn: Please specifiy a default value for "Game" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 starPrefab
+2019-07-17T08:55:41.237Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:55:41.237Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:56:14.523Z - warn: Please specifiy a default value for "Game" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 start
+2019-07-17T08:56:14.524Z - error: Can not declare Game.start, it is already defined in the prototype of Game
+    at Object.cc.errorID (C:\CocosCreator\resources\engine\CCDebugger.js:327:8)
+    at defineProp (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:137:16)
+    at declareProperties (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:813:17)
+    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClass.js:950:9)
+    at C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClassDecorator.js:292:18
+    at C:\CocosCreator\resources\engine\cocos2d\core\platform\CCClassDecorator.js:61:20
+    at window.__decorate (C:\CocosCreator\resources\engine\polyfill\typescript.js:29:95)
+    at G:\Cocos_workspace\start_project\temp\quick-scripts\assets\scripts\Game.js:35:12
+    at __define (G:\Cocos_workspace\start_project\temp\quick-scripts\assets\scripts\Game.js:39:2)
+2019-07-17T08:56:14.526Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:56:14.526Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T08:56:57.028Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T08:56:57.029Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:01:15.304Z - warn: Please specifiy a default value for "Game" property at its declaration:
+ 
+// Before:
+@property(...)
+value; 
+// After:
+@property(...)
+value = 0 player
+2019-07-17T09:01:15.306Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:01:15.306Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:02:32.602Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:02:32.602Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:05:43.441Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:05:43.442Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:07:20.495Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:07:20.495Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:17:34.370Z - error: SyntaxError: Unexpected token (50:8) while parsing G:\Cocos_workspace\start_project\temp\quick-scripts\assets\scripts\Game.js while parsing file: G:\Cocos_workspace\start_project\temp\quick-scripts\assets\scripts\Game.js
+    at DestroyableTransform.end [as _flush] (C:\CocosCreator\resources\app.asar\node_modules\insert-module-globals\index.js:96:21)
+    at DestroyableTransform.prefinish (C:\CocosCreator\resources\app.asar\node_modules\readable-stream\lib\_stream_transform.js:138:10)
+    at emitNone (events.js:86:13)
+    at DestroyableTransform.emit (events.js:188:7)
+    at prefinish (C:\CocosCreator\resources\app.asar\node_modules\readable-stream\lib\_stream_writable.js:619:14)
+    at finishMaybe (C:\CocosCreator\resources\app.asar\node_modules\readable-stream\lib\_stream_writable.js:627:5)
+    at endWritable (C:\CocosCreator\resources\app.asar\node_modules\readable-stream\lib\_stream_writable.js:638:3)
+    at DestroyableTransform.Writable.end (C:\CocosCreator\resources\app.asar\node_modules\readable-stream\lib\_stream_writable.js:594:41)
+    at DestroyableTransform.onend (C:\CocosCreator\resources\app.asar\node_modules\readable-stream\lib\_stream_readable.js:577:10)
+    at Object.onceWrapper (events.js:293:19)
+    at process.on.t (C:\CocosCreator\resources\app.asar\editor\core\editor-init.js:1:360)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2019-07-17T09:26:45.910Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:26:45.912Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:29:50.689Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:29:50.690Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:37:46.515Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:37:46.517Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:42:30.039Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:42:30.041Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:43:26.250Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:43:26.251Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:48:11.999Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:48:12.000Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:51:50.848Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:51:50.849Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
+2019-07-17T09:52:48.910Z - warn: Please change the definition of property 'jumpAudio' in class 'Player'. Starting from v1.10,
+properties in CCClass can not be abbreviated if they are of type RawAsset.
+Please use the complete form.
+For example, if the type is Texture2D, the previous definition is:
+    jumpAudio: cc.Texture2D,
+Now it should be changed to:
+    jumpAudio: {
+      type: cc.Texture2D // use 'type:' to define Texture2D object directly
+      default: null,     // object's default value is null
+    },
+(This helps us to successfully refactor all RawAssets at v2.0, sorry for the inconvenience. 😰 )
+2019-07-17T09:52:48.911Z - warn: The default value of Player.jumpAudio must be an empty string. (changed since 1.8)
