@@ -475,6 +475,12 @@
     "starPrefab": {
       "__uuid__": "de70a248-355b-45c1-86e1-66567791f5eb"
     },
+    "gameoverPrefab": {
+      "__uuid__": "126af9cc-91ee-4ac9-9a57-d63b20cfe266"
+    },
+    "buttonPrefab": {
+      "__uuid__": "3691a270-4fe6-4a60-b024-5894cdb748af"
+    },
     "scoreLab": {
       "__id__": 6
     },

@@ -2,6 +2,7 @@
 cc._RF.push(module, '45d51iCFJNNubupx5MLEPkT', 'Game');
 // scripts/Game.ts
 
+// import {Player} from './Player'
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Game = /** @class */ (function (_super) {
@@ -12,6 +13,8 @@ var Game = /** @class */ (function (_super) {
         _this.text = 'hello';
         //引用星星的预制资源
         _this.starPrefab = null;
+        _this.gameoverPrefab = null;
+        _this.buttonPrefab = null;
         _this.scoreLab = null;
         //星星的消失时间范围
         _this.minStarDuration = 0;
@@ -36,7 +39,7 @@ var Game = /** @class */ (function (_super) {
         var newstar = cc.instantiate(this.starPrefab);
         this.node.addChild(newstar);
         newstar.setPosition(this.getNewStarPosition());
-        newstar.getComponent('Star').game = this;
+        // newstar.getComponent('Star').game = this;
         newstar.getComponent('Star').init(this);
         this.starDuration = this.minStarDuration + cc.random0To1() * (this.maxStarDuration - this.minStarDuration);
         this.timer = 0;
@@ -63,6 +66,16 @@ var Game = /** @class */ (function (_super) {
     };
     Game.prototype.gameover = function () {
         this.player.stopAllActions();
+        var gameoverlab = cc.instantiate(this.gameoverPrefab);
+        this.node.addChild(gameoverlab);
+        gameoverlab.color = cc.color(241, 0, 29);
+        var playbutton = cc.instantiate(this.buttonPrefab);
+        this.node.addChild(playbutton);
+        playbutton.color = cc.color(0, 153, 255);
+        playbutton.on('click', this.callback, this);
+        // cc.director.loadScene('myfir');
+    };
+    Game.prototype.callback = function () {
         cc.director.loadScene('myfir');
     };
     __decorate([
@@ -74,6 +87,12 @@ var Game = /** @class */ (function (_super) {
     __decorate([
         property(cc.Prefab)
     ], Game.prototype, "starPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], Game.prototype, "gameoverPrefab", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], Game.prototype, "buttonPrefab", void 0);
     __decorate([
         property(cc.Label)
     ], Game.prototype, "scoreLab", void 0);
