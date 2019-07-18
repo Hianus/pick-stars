@@ -2,7 +2,7 @@
 cc._RF.push(module, '45d51iCFJNNubupx5MLEPkT', 'Game', __filename);
 // scripts/Game.ts
 
-// import {Player} from './Player'
+// import Player, {Player} from './Player'
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Game = /** @class */ (function (_super) {
@@ -39,7 +39,6 @@ var Game = /** @class */ (function (_super) {
         var newstar = cc.instantiate(this.starPrefab);
         this.node.addChild(newstar);
         newstar.setPosition(this.getNewStarPosition());
-        // newstar.getComponent('Star').game = this;
         newstar.getComponent('Star').init(this);
         this.starDuration = this.minStarDuration + cc.random0To1() * (this.maxStarDuration - this.minStarDuration);
         this.timer = 0;
@@ -66,6 +65,8 @@ var Game = /** @class */ (function (_super) {
     };
     Game.prototype.gameover = function () {
         this.player.stopAllActions();
+        this.player.getComponent('Player').xSpeed = 0;
+        this.player.getComponent('Player').onDestroy();
         var gameoverlab = cc.instantiate(this.gameoverPrefab);
         this.node.addChild(gameoverlab);
         gameoverlab.color = cc.color(241, 0, 29);
@@ -73,7 +74,6 @@ var Game = /** @class */ (function (_super) {
         this.node.addChild(playbutton);
         playbutton.color = cc.color(0, 153, 255);
         playbutton.on('click', this.callback, this);
-        // cc.director.loadScene('myfir');
     };
     Game.prototype.callback = function () {
         cc.director.loadScene('myfir');

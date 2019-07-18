@@ -25,6 +25,7 @@ export default class Player extends cc.Component {
     @property
     text: string = 'hello';
 
+
     private xSpeed:number = 0;
     private accLeft:boolean = false;
     private accRight:boolean = false;
@@ -44,21 +45,21 @@ export default class Player extends cc.Component {
     private addEventListeners(){
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN,this.onKeyDown,this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP,this.onKeyUp,this);
-        cc.find("Canvas").on(cc.Node.EventType.TOUCH_START, this.onScreenTouchStart,this);
-        cc.find("Canvas").on(cc.Node.EventType.TOUCH_CANCEL, this.onScreenTouchEnd, this);
-        cc.find("Canvas").on(cc.Node.EventType.TOUCH_END, this.onScreenTouchEnd,this);
+        // cc.find("Canvas").on(cc.Node.EventType.TOUCH_START, this.onScreenTouchStart,this);
+        // cc.find("Canvas").on(cc.Node.EventType.TOUCH_CANCEL, this.onScreenTouchEnd, this);
+        // cc.find("Canvas").on(cc.Node.EventType.TOUCH_END, this.onScreenTouchEnd,this);
     }
-    private onScreenTouchStart(event: cc.Event.EventTouch) {
-        if (event.getLocationX() > cc.winSize.width/2) {
-            this.moveRight();
-        } else {
-            this.moveLeft();
-        }
-    }
+    // private onScreenTouchStart(event: cc.Event.EventTouch) {
+    //     if (event.getLocationX() > cc.winSize.width/2) {
+    //         this.moveRight();
+    //     } else {
+    //         this.moveLeft();
+    //     }
+    // }
 
-    private onScreenTouchEnd() {
-        this.stopMove();
-    }
+    // private onScreenTouchEnd() {
+    //     this.stopMove();
+    // }
     private moveLeft(){
         this.accLeft = true;
         this.accRight = false;
@@ -125,6 +126,9 @@ export default class Player extends cc.Component {
         }else if(this.accRight){
             this.xSpeed += this.accel * dt;
         }
+
+        console.log(this.xSpeed);
+
         //限制角色的速度不能超过最大值
         if(Math.abs(this.xSpeed) > this.maxMoveSpeed){
             this.xSpeed = this.maxMoveSpeed * this.xSpeed/Math.abs(this.xSpeed);

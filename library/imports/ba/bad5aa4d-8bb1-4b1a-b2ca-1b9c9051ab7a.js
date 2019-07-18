@@ -41,21 +41,20 @@ var Player = /** @class */ (function (_super) {
     Player.prototype.addEventListeners = function () {
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
-        cc.find("Canvas").on(cc.Node.EventType.TOUCH_START, this.onScreenTouchStart, this);
-        cc.find("Canvas").on(cc.Node.EventType.TOUCH_CANCEL, this.onScreenTouchEnd, this);
-        cc.find("Canvas").on(cc.Node.EventType.TOUCH_END, this.onScreenTouchEnd, this);
+        // cc.find("Canvas").on(cc.Node.EventType.TOUCH_START, this.onScreenTouchStart,this);
+        // cc.find("Canvas").on(cc.Node.EventType.TOUCH_CANCEL, this.onScreenTouchEnd, this);
+        // cc.find("Canvas").on(cc.Node.EventType.TOUCH_END, this.onScreenTouchEnd,this);
     };
-    Player.prototype.onScreenTouchStart = function (event) {
-        if (event.getLocationX() > cc.winSize.width / 2) {
-            this.moveRight();
-        }
-        else {
-            this.moveLeft();
-        }
-    };
-    Player.prototype.onScreenTouchEnd = function () {
-        this.stopMove();
-    };
+    // private onScreenTouchStart(event: cc.Event.EventTouch) {
+    //     if (event.getLocationX() > cc.winSize.width/2) {
+    //         this.moveRight();
+    //     } else {
+    //         this.moveLeft();
+    //     }
+    // }
+    // private onScreenTouchEnd() {
+    //     this.stopMove();
+    // }
     Player.prototype.moveLeft = function () {
         this.accLeft = true;
         this.accRight = false;
@@ -123,6 +122,7 @@ var Player = /** @class */ (function (_super) {
         else if (this.accRight) {
             this.xSpeed += this.accel * dt;
         }
+        console.log(this.xSpeed);
         //限制角色的速度不能超过最大值
         if (Math.abs(this.xSpeed) > this.maxMoveSpeed) {
             this.xSpeed = this.maxMoveSpeed * this.xSpeed / Math.abs(this.xSpeed);

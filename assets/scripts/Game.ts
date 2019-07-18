@@ -1,4 +1,4 @@
-// import {Player} from './Player'
+// import Player, {Player} from './Player'
 
 const {ccclass, property} = cc._decorator;
 
@@ -33,8 +33,6 @@ export default class Game extends cc.Component {
     @property(cc.Node)
     public player:cc.Node = null;
 
-    //地面y轴坐标
-    private groundY:number;
     //定时器
     public timer:number;
     //星星存在的持续时间
@@ -57,7 +55,6 @@ export default class Game extends cc.Component {
         let newstar = cc.instantiate(this.starPrefab);
         this.node.addChild(newstar);
         newstar.setPosition(this.getNewStarPosition());
-        // newstar.getComponent('Star').game = this;
         newstar.getComponent('Star').init(this);
         this.starDuration = this.minStarDuration + cc.random0To1() * (this.maxStarDuration - this.minStarDuration);
         this.timer = 0;
@@ -85,6 +82,8 @@ export default class Game extends cc.Component {
     }
     public gameover(){
         this.player.stopAllActions();
+        this.player.getComponent('Player').xSpeed = 0;
+        this.player.getComponent('Player').onDestroy();
         let gameoverlab = cc.instantiate(this.gameoverPrefab);
         this.node.addChild(gameoverlab);
         gameoverlab.color = cc.color(241,0,29);
@@ -92,7 +91,7 @@ export default class Game extends cc.Component {
         this.node.addChild(playbutton);
         playbutton.color = cc.color(0,153,255);
         playbutton.on('click',this.callback,this);
-        // cc.director.loadScene('myfir');
+        
     }
     private callback(){
         cc.director.loadScene('myfir');
